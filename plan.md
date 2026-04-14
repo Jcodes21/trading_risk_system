@@ -1,17 +1,17 @@
 A java springboot backend system that presents market data, allows users to book trades, which updates user's position, evaluates users risk exposure , recalculates p and l. Backend Testing done using something like postman. Front end UI layer added later.
 
-**App flow
+## App flow
 Trade → Position → Risk → P&L
 
-Repo:
+## Repo:
 trade-risk-system
 
-Tech stack/Dependencies
+## Tech stack/Dependencies
 Backend: Java Spring Boot
 Database: Postgresql
 ORM: JPA with hibernate
 
-Endpoints/File system
+## Endpoints/File system
 View / Screen
 Endpoint
 Backend package / class responsible
@@ -133,7 +133,7 @@ Trade Entry View
 → database save
 → response returned
 
-Database
+## Database
 MVP*Market data will be hard coded initially
 
 Instrument table
