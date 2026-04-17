@@ -3,6 +3,26 @@ A java springboot backend system that presents market data, allows users to book
 ## App flow
 Trade → Position → Risk → P&L
 
+## Trade
+A trade reprsents a user buying or selling an instrument at a given price and quantity.
+
+Example:
+User: John Doe
+Instrument: AAPL
+Side: Buy
+Quantity: 10
+Price: 180.5
+
+- Create new trade
+- Validate trade input
+- Save trade to the DB
+- Fetch all trades
+- Fetch a single trade by ID
+- Cancel/delete a trade
+- Trigger position updates
+- Trigger risk checks
+- Trigger P&L recalculation
+  
 ## Repo:
 trade-risk-system
 
